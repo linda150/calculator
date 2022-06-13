@@ -29,3 +29,12 @@ function getDivide() {
 }
 
 console.log(getDivide());
+
+const numbers = [12, 134, 135, 1, 567, 78];
+let total = 0;
+
+for (i = 0; i < numbers.length; i++) {
+  total += numbers[i];
+}
+
+console.log(total);
